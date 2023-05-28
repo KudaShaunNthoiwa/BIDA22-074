@@ -124,3 +124,14 @@ nav .menu li a:active{
     margin-bottom: gray;
     color: #306af0;
 }
+@media (max-width: 575px) {
+    nav .menu{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    nav .menu {
+        flex-wrap: wrap;
+    }
+}

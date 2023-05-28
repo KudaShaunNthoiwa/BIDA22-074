@@ -302,7 +302,7 @@ p{
     }
 }
 @media(max-width:824px){
-    .nav{
+     nav{
         padding: 20px 10px;
         width: 90%;
     }
@@ -319,7 +319,7 @@ p{
     }
 }
 @media(max-width:530px){
-    .nav{
+    nav{
         display: grid;
         grid-template-columns: 60px 1fr;
         grid-template-rows: 1fr 1fr;
@@ -351,6 +351,18 @@ p{
     }
     .post-box{
         height: 500px;
+    }
+}
+
+@media (max-width: 575px) {
+    nav .menu{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    nav .menu {
+        flex-wrap: wrap;
     }
 }
 
